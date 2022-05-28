@@ -1,0 +1,687 @@
+Fix the bugs in below snippet
+
+    <html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+        </title>
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+
+Modified Code:
+
+<html lang="en">
+    <head>
+        <title>Document guvi</title>
+    </head>
+    <body>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+        <div>
+            Guvi Geek Network
+        </div>
+    </body>
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Try the below one
+
+<html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+Modified code:
+
+<html lang="en">
+    <head>
+        <title>Document guvi </title>
+    </head>
+    <body>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+        <div>
+            Guvi Geek Network
+        </div>
+    </body>
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Design a contact us form with all fields as required.
+
+Code:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Contact Us</h2>
+    <form>
+        <div>
+        <label for="firstname">First Name : </label>
+        <input type="text" id="firstname" required>
+        <label for="lastname"> Last Name : </label>
+        <input type="text" id="lastname" required>
+        <label for="mail"> Email ID : </label>
+        <input type="email" id="email" required>
+        <label for="number">Phone Number : </label>
+        <input type="number" id="number" required>
+        <label for="info"> Additional Information : </label>
+        <input type="text" id="info">
+        <button>Submit</button>
+        </div>
+    </form> 
+</body>
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Use certain HTML elements to display the following in a HTML page.
+
+Please refer the link for template.
+
+Code:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>Programming Language
+                <ul>
+                    <li>JavaScript
+                        <ol>
+                            <li style="list-style-type: lower-alpha;">Angular</li>
+                            <li style="list-style-type: lower-alpha;">React</li>
+                            <li style="list-style-type: lower-alpha;">Vue.js</li>
+                        </ol>
+                    </li>
+                    <li>Python
+                        <ol>
+                            <li style="list-style-type: lower-alpha;">Django Framework</li>
+                            <li style="list-style-type: lower-alpha;">Flask Framework</li>
+                        </ol>
+                    </li>
+                    <li>Java
+                        <ol>
+                            <li style="list-style-type: lower-alpha;">Spring</li>
+                            <li style="list-style-type: lower-alpha;">Maven</li>
+                            <li style="list-style-type: lower-alpha;">Hibernate</li>
+                        </ol>
+                    </li>
+                </ul>
+        </li>
+        <li>Database
+            <ul>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>Cassandra</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Create an element that helps you to open the https://google.com in separate new tab.
+
+Code:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://google.com" target="_blank">Google</a>
+</body>
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .em {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            margin: 10px;
+            width: 330px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Bank Loan Application Form</h2>
+    <form>
+        <div>
+            <div class="em">
+                <label for="firstname">First Name : </label>
+                <input type="text" id="firstname" required>
+            </div>
+            <div class="em">
+                <label for="lastname"> Last Name : </label>
+                <input type="text" id="lastname" required>
+            </div>
+            <div class="em">
+                <label for="mail"> Email ID : </label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="em">
+                <label for="number">Phone Number : </label>
+                <input type="number" id="number" required>
+            </div>
+            <div class="em"><label for="em">Employee Type : </label>
+                <input type="radio" id="em" required>Salaried</input>
+                <input type="radio" id="em" required>Self Employed</input>
+            </div>
+            <div class="em"><label for="info"> Additional Information : </label>
+                <input type="text" id="info">
+            </div>
+            <div class="em"><button>Submit</button></div>
+        </div>
+    </form>
+</body>
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Design form shown in the link
+
+http://evc-cit.info/cit040/formguide/card_0.png
+
+Code:
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 750px;
+        }
+        
+        .outer-container {
+            height: 320px;
+            width: 540px;
+        }
+
+        .inner-container {
+            border: 5px solid black;
+            height: 320px;
+            width: 520px;
+        }
+
+        .head {
+            background-color: red;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            border: 4px solid white;
+            padding: 5px;
+            margin: 0%;
+        }
+
+        .field1 {
+            display: flex;
+            flex-direction: column;
+            margin: 0%;
+        }
+
+        .field2 {
+            display: flex;
+            flex-direction: column;
+            padding-left: 25px;
+            padding-right: 25px;
+            margin: 0%;
+        }
+
+        .field-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin: 0%;
+        }
+
+        .sub {
+            display: flex;
+            justify-content: space-around;
+            width: 465px;
+            gap: 10px;
+            margin: 0%;
+            margin-left: 20px;
+        }
+
+        .last {
+            margin-left: 22px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+    <div class="outer-container">
+        <div class="inner-container">
+            <p class="head"> Yes! I want to subsribe to <i>Mag-O-Zine</i></p>
+            <div class=field-container>
+                <div class="field1">
+                    <input type="text" id="firstname" value="Joe">
+                    <label for="firstname">First Name</label>
+                </div>
+                <div class="field1">
+                    <input type="text" id="lastname" value="Schmegeggie">
+                    <label for="lastname">Last Name</label>
+                </div>
+            </div>
+            <div class="field2">
+                <input type="text" id="address" value=" 1001  Washington Street">
+                <label for="address">Address</label>
+            </div>
+            <div class="field-container">
+                <div class="field1">
+                    <input type="text" id="city" size="10" value="Aufour">
+                    <label for="city">City</label>
+                </div>
+                <div class="field1">
+                    <input type="text" id="state" size="10" value="CA">
+                    <label for="state">State</label>
+                </div>
+                <div class="field1">
+                    <input type="text" id="zip" size="10" value="99999">
+                    <label for="zip">Zip</label>
+                </div>
+            </div>
+            <div class="sub">
+                <label for="sub">Subscribe for : </label>
+                <input type="checkbox" id="sub" checked>1 year ($19.95)</input>
+                <input type="checkbox" id="sub">2 years ($35.00)</input>
+            </div>
+            <div class="last">
+                Send me more information about:<br>
+                <input type="checkbox" checked>Computer-Zine</input><br>
+                <input type="checkbox">Fishing-Zine</input><br>
+                <input type="checkbox" checked>Cat-O-Zine</input><br>
+            </div>
+
+        </div>
+    </div>
+</form>
+</body>
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Use the table tag to design given image
+
+https://www.bapugraphics.com/assets/img/port_upload_dir/table-4.jpg
+
+Code:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 150px;
+            height: 40px;
+            text-align: center;
+        }
+        th {
+            text-align: center;
+            width: 150px;
+            height: 40px;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <th colspan="4">
+                Health Chart
+            </th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">State of Health</td>
+                <td colspan="2">Fasting Value</td>
+                <td>After Eating</td>
+            </tr>
+            <tr>
+                <td>Minimum</td>
+                <td>Maximum</td>
+                <td>2 hrs after eating</td>
+            </tr>
+            <tr>
+                <td>Healthy</td>
+                <td>70</td>
+                <td>100</td>
+                <td>Less than 140</td>
+            </tr>
+            <tr>
+                <td>Pre-Diabetes</td>
+                <td>101</td>
+                <td>126</td>
+                <td>140 to 200</td>
+            </tr>
+            <tr>
+                <td>Diabetes</td>
+                <td>More than 126</td>
+                <td>N/A</td>
+                <td>More than 200</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------
+Write HTML input tags snippet to show default values for all Form elements.
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+            border: 2px black solid;
+            justify-content: space-between;
+            margin-bottom: 2px;
+            padding: 2px;
+        }
+
+        .container1 {
+            border: 2px black solid;
+            margin-bottom: 2px;
+            padding: 2px;
+        }
+
+        .image {
+            width: 108px;
+            height: 120px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+
+        <div style="display: flex; flex-direction: column; width: 650px;">
+
+            <br>
+            <label>Use this search bar to know the jobs available now : </label>
+            <input type="search" value="React Developer jobs at chennai...">
+            <input type="submit" value="Search">
+            <br><br>
+
+            <div class="container">
+                <label>Please add your image : </label>
+                <input class="image" type="image"
+                    src="https://cdn5.vectorstock.com/i/1000x1000/51/99/icon-of-user-avatar-for-web-site-or-mobile-app-vector-3125199.jpg">
+            </div>
+
+            <div class="container">
+                <label>Name : </label>
+                <input type="text" value="Shankar">
+            </div>
+
+            <div class="container">
+                <label>Gender : </label>
+                <div>
+                    <input type="checkbox" value="male" checked>Male</input>
+                    <input type="checkbox" value="female">Female</input>
+                </div>
+            </div>
+
+            <div class="container">
+                <label>Date Of Birth : </label>
+                <input type="date" value="1992-07-21">
+            </div>
+
+            <div class="container">
+                <label>Age : </label>
+                <input type="number" value="29">
+            </div>
+
+            <div class="container">
+                <label>Contact number : </label>
+                <input type="tel" value="9080679661">
+            </div>
+
+            <div class="container">
+                <label>Email Address : </label>
+                <input style="width:200px" type="email" value="shankarsowmiya07@gmail.com">
+            </div>
+
+            <div class="container">
+                <label>Preferred password for this account</label>
+                <input type="password" value="password@123">
+            </div>
+
+            <div class="container">
+                <label>Preferred Color : </label>
+                <input type="color" value="#ff0000">
+            </div>
+
+            <div class="container">
+                <label>GitHub URL : </label>
+                <input style="width:250px" type="url" value="https://github.com/Shankarprince">
+            </div>
+
+            <div class="container">
+                <label>Preferred role : </label>
+                <div>
+                    <input type="radio" value="frontEndDeveloper" checked>Front End Developer</input>
+                    <input type="radio" value="backEndDeveloper">Back End Developer</input>
+                    <input type="radio" value="fullStackDeveloper">Full Stack Developer</input>
+                </div>
+            </div>
+
+            <input type="hidden" value="34523">
+
+            <div class="container">
+                <label>Last working month : </label>
+                <input type="month" value="2021-07">
+            </div>
+
+            <div class="container">
+                <label>Communication level based on IELTS Score : </label>
+                <div class="container">
+                    <input id="inputRange" type="range" min="0" max="10" value="7" step="0.5" onchange="myFunction()">
+                    <p id="inputValue" style="margin: 0; padding: 0;">7.5</p>
+                </div>
+            </div>
+
+            <div class="container">
+                <label>Preferred unique user ID : </label>
+                <div>
+                    <input type="text" value="shankarguvi">
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+
+            <div class="container1">
+                <label>
+                    To apply jobs in our portal, you need to take a assessment exam.
+                    <br>
+                    This exam duration is for one hour. We will give you the study
+                    <br>
+                    materials and within a month, you have to appear for the exam.
+                    <br>
+                    This exam is conducted on every week monday of every month.
+                    <br>
+                    Mention your preferred week :
+                </label>
+                <input style="margin-left: 277px;" type="week" value="2021-W02">
+            </div>
+
+            <div class="container">
+                <label> Preferred exam time : </label>
+                <input type="time" value="09:00" min="09:00" max="18:00">
+            </div>
+
+            <div class="container">
+                <label>Please add your ID proof: </label>
+                <input type="file">
+            </div>
+
+            <div class="container" value="2021-12-15">
+                <label>Form filled Date : </label>
+                <input type="datetime-local" value="2021-12-15T10:30">
+            </div>
+
+            <div class="container">
+                <label> Please check the submitted details and click submit : </label>
+                <input type="button" value="Submit">
+            </div>
+
+        </div>
+
+    </form>
+
+    <script>
+        function myFunction() {
+            var inputRange = document.getElementById("inputRange").value;
+            console.log(inputRange);
+            document.getElementById("inputValue").innerHTML = inputRange;
+        }
+    </script>
+</body>
+
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------
+In your, HTML page add the below line and Highlight it without using any CSS.
+"HTML & CSS is awesome"
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <mark>"HTML & CSS is awesome"</mark>
+</body>
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------
+Create an HTML page, which should contain all types of input elements.
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <div style="display: flex; flex-direction: column;">
+            <input type="button">
+            <input type="checkbox">
+            <input type="color">
+            <input type="date">
+            <input type="datetime-local">
+            <input type="email">
+            <input type="file">
+            <input type="hidden">
+            <input type="image">
+            <input type="month">
+            <input type="number">
+            <input type="password">
+            <input type="radio">
+            <input type="range">
+            <input type="reset">
+            <input type="search">
+            <input type="submit">
+            <input type="tel">
+            <input type="text">
+            <input type="time">
+            <input type="url">
+            <input type="week">
+        </div>
+    </body>
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------
